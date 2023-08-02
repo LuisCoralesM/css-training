@@ -1,1 +1,4 @@
-@import "./layout/layout.css"
+@import "./layout/layout.css";
+@import "./components/nav/index.css";
+@import "./components/generic/index.css";
+@import "./utils/index.css";

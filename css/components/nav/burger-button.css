@@ -1,0 +1,21 @@
+.nav__burger__button {
+  border: none;
+  background-color: inherit;
+  color: var(--main-text-color);
+}
+
+.nav__burger__button span {
+  width: 3.25rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.nav__burger__button:focus {
+  opacity: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__burger__button {
+    display: none;
+  }
+}

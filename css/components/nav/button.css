@@ -1,0 +1,16 @@
+.nav__button__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__button {
+  margin: 0 1.25rem;
+}
+
+.nav__burger__button:focus + .nav__menu .nav__button__group {
+  flex-direction: column;
+}
+
+.nav__burger__button:focus + .nav__menu .nav__button {
+  margin: 0.2rem 0;
+}
