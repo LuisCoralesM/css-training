@@ -1,0 +1,36 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-inline-start: 0;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  padding: 0.75rem 1.25rem;
+}
+
+.nav__link:hover {
+  background-color: var(--tertiary-color);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 0.2rem;
+}
+
+.nav__burger__button:focus + .nav__menu .nav__item {
+  margin: 0.5rem 0;
+}
+
+.nav__burger__button:focus + .nav__menu .nav__link {
+  padding: 0.5rem 0;
+}
+
+.nav__burger__button:focus + .nav__menu .nav__list {
+  flex-direction: column;
+}

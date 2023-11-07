@@ -1,0 +1,19 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--main-color);
+  color: var(--main-text-color);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Neue Machina", sans-serif;
+  font-size: 1.2rem;
+}

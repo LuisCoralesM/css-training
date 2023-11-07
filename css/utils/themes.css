@@ -1,0 +1,17 @@
+@import "variables.css";
+
+[data-theme="light"] {
+  --main-color: var(--light-grey);
+  --secondary-color: var(--black);
+  --tertiary-color: #ffffff;
+  --main-text-color: var(--black);
+  --secondary-text-color: #ffffff;
+}
+
+[data-theme="dark"] {
+  --main-color: var(--darkest-grey);
+  --secondary-color: var(--darker-grey);
+  --tertiary-color: var(--dark-grey);
+  --main-text-color: #ffffff;
+  --secondary-text-color: var(--light-grey);
+}

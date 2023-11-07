@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Training</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -16,7 +16,7 @@
 
   <body>
     <header class="header__main">
-      <nav class="nav__bar">
+      <nav class="nav__container">
         <div class="nav__logo__container">
           <a href="#" class="nav__logo">
             <img src="assets/logo.png" alt="Logo" class="nav__logo__img" />
@@ -42,5 +42,21 @@
         </div>
       </nav>
     </header>
+    <section class="theme__container">
+      <button class="theme__button button__primary" id="theme__button">Change theme</button>
+    </section>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure rem dolorum ratione
+        obcaecati reprehenderit eius sit numquam quod perspiciatis, accusamus soluta molestias
+        dolores, nemo ea? Aspernatur et ea obcaecati.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure rem dolorum ratione
+        obcaecati reprehenderit eius sit numquam quod perspiciatis, accusamus soluta molestias
+        dolores, nemo ea? Aspernatur et ea obcaecati.
+      </p>
+    </section>
   </body>
+  <script src="./src/theme.js"></script>
 </html>
